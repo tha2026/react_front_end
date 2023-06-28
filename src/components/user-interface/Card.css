@@ -1,0 +1,11 @@
+.card {
+    background-color: slategrey;
+    margin: auto;
+    margin-top: 5vw;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+    /*border-radius: 4pt;*/
+    width: max-content;
+}

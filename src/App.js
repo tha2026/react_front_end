@@ -1,23 +1,12 @@
-import logo from "./logo.svg";
 import "./App.css";
+import spinner from "./spinner.jpg";
+import Card from "./components/user-interface/Card.jsx";
 
 function App() {
     return (
         <div className="App">
-            <header className="App-header">
-                <img src={logo} className="App-logo" alt="logo" />
-                <p>
-                    Edit <code>src/App.js</code> and save to reload.
-                </p>
-                <a
-                    className="App-link"
-                    href="https://reactjs.org"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                >
-                    Learn React
-                </a>
-            </header>
+            <img src={spinner} alt="" width="20%" height="20%"></img>
+            <Card className="rounded-corners">Hello</Card>
         </div>
     );
 }
