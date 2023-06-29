@@ -1,12 +1,12 @@
 import "./App.css";
 import spinner from "./spinner.jpg";
-import Card from "./components/user-interface/Card.jsx";
+import ButtonCard from "./components/button/ButtonCard.jsx";
 
 function App() {
     return (
         <div className="App">
-            <img src={spinner} alt="" width="20%" height="20%"></img>
-            <Card className="rounded-corners">Hello</Card>
+            <img src={spinner} alt="" width="40%" height="40%"></img>
+            <ButtonCard></ButtonCard>
         </div>
     );
 }
