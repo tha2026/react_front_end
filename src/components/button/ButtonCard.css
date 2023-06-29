@@ -1,0 +1,11 @@
+button {
+    margin: auto;
+    padding-top: 0.5vw;
+    padding-bottom: 0.5vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
+
+p {
+    margin: 0;
+}

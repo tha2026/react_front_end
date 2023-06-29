@@ -5,7 +5,7 @@ import ButtonCard from "./components/button/ButtonCard.jsx";
 function App() {
     return (
         <div className="App">
-            <img src={spinner} alt="" width="40%" height="40%"></img>
+            <img src={spinner} alt="" width="25%" height="25%"></img>
             <ButtonCard></ButtonCard>
         </div>
     );

@@ -2,10 +2,13 @@
     background-color: slategrey;
     margin: auto;
     margin-top: 5vw;
+    margin-bottom: 5vw;
     padding-left: 10vw;
     padding-right: 10vw;
-    padding-top: 2vw;
-    padding-bottom: 2vw;
+    padding-top: 5vw;
+    padding-bottom: 5vw;
     /*border-radius: 4pt;*/
+    font-size: 36px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
     width: max-content;
 }
