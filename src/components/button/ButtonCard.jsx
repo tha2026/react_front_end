@@ -8,7 +8,7 @@ const ButtonCard = (props) => {
         <div>
             <Card className="rounded-corners">
                 <p>Fidget Spinner</p>
-                <button className="rounded-corners">Buy Now</button>
+                <button onClick={() => {console.log("clicked button")}} className="rounded-corners">Buy Now</button>
             </Card>
         </div>
     );

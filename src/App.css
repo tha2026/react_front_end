@@ -3,5 +3,11 @@
 }
 
 .rounded-corners {
-    border-radius: 0.2cm;
+    border-radius: 10px;
+}
+
+img {
+    margin: auto;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
 }
